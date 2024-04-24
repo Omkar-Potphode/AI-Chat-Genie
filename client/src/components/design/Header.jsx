@@ -1,4 +1,5 @@
-import { BackGround } from "../../assets";
+import { background } from '../../assets';
+
 
 export const Rings = () => {
     return (
@@ -33,10 +34,9 @@ export const SideLines = () => {
 export const HamburgerMenu = () => {
     return (
         <div className="absolute inset-0 pointer-events-none lg:hidden">
-            <div className="absolute inset-0 opacity-[.03]">
+            <div className="absolute inset-0 opacity-[.08]">
                 <img
-                className="w-full h-full object-cover"
-                src={BackGround}
+                src={background}
                 width={688}
                 height={953}
                 alt="background"

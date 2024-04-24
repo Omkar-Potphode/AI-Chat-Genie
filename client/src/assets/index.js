@@ -1,7 +1,7 @@
 import ChatGenie from './images/ChatGenie.svg';
-import BackGround from './images/background.jpg';
+import background from './images/background.jpg';
 
 
 export  { ChatGenie, 
-    BackGround,
+    background,
 };
