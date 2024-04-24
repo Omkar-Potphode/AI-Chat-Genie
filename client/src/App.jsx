@@ -1,12 +1,19 @@
+import ButtonGradient from "./assets/svg/ButtonGrident"
+import Button from "./components/Button"
 
 
 function App() {
 
   return (
     <>
-      <div className='pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden bg-black'>
-        header
-      </div>
+    <div>
+      <Button className='mt-10' href="#login">
+        button design trail
+      </Button>
+    </div>
+
+
+    <ButtonGradient/>
     </>
   )
 }
